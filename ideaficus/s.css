@@ -1,13 +1,54 @@
 
 html{ 
-    
-/*  
+      font-family: monospace;
+      font:  1.5em
+      line-height: 1.5;
+      margin: 0%;
+      letter-spacing: 0.04em;
+      word-spacing: 0.04em;
+      margin: 5%;
+      }
+   
+
+
+
+ul li {
+
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;}
+
+li.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
+
+li.s {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
+
+li.c {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/star_2.png);}
+
+
+
+
+.v 
+{
+
+overflow: auto;
+padding: 1%;
+border: 3px solid purple;
+border-radius: 2px;
+}
+
+h1 {text-align:center;}
+
+
+hr {color: darkgreen}
+
+
+.codice {
 font-family: monospace;
-  white-space: pre-wrap;       
-    white-space: -moz-pre-wrap;  
-    white-space: -pre-wrap;     
-    white-space: -o-pre-wrap;   
-    word-wrap: break-word;  */}
+color: white;
+background: #222222 ;
+padding: 2%;
+}
+
 
 
 
