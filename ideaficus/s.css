@@ -27,12 +27,17 @@ li.c {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/
 
 
 
-.v 
-{
-
+.v {
 overflow: auto;
 padding: 1%;
 border: 3px solid purple;
+border-radius: 2px;
+}
+
+.g {
+overflow: auto;
+padding: 1%;
+border: 3px solid darkgreen;
 border-radius: 2px;
 }
 
