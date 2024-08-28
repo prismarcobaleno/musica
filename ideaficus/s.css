@@ -41,6 +41,13 @@ border: 3px solid darkgreen;
 border-radius: 2px;
 }
 
+.s {
+overflow: auto;
+padding: 1%;
+border: 3px solid darkyellow;
+border-radius: 2px;
+}
+
 h1 {text-align:center;}
 
 
