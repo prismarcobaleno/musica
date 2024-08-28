@@ -1,7 +1,7 @@
 
 html{ 
       font-family: monospace;
-      font:  1.5em
+      font:  1.5em;
       line-height: 1.5;
       margin: 0%;
       letter-spacing: 0.04em;
@@ -44,7 +44,7 @@ border-radius: 2px;
 .s {
 overflow: auto;
 padding: 1%;
-border: 3px solid darkyellow;
+border: 3px solid orange;
 border-radius: 2px;
 }
 
