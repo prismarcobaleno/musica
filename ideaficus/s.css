@@ -9,7 +9,20 @@ html{
       margin: 5%;
       }
    
+details {
+  padding: 1%; 
+  border: 1px solid #a7a7a7;
+  border-radius: 2px
+}
 
+details[open] > summary {
+  list-style-type: '📖 ';
+}
+
+summary {
+  cursor: pointer;
+  list-style-type: '📘 ';
+} 
 
 
 ul li {
