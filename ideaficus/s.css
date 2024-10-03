@@ -1,7 +1,8 @@
 
+
 html{ 
       font-family: monospace;
-      font:  1.5em;
+      font:  1.5em
       line-height: 1.5;
       margin: 0%;
       letter-spacing: 0.04em;
@@ -9,6 +10,7 @@ html{
       margin: 5%;
       }
    
+
 details {
   padding: 2px; 
   border: 1px solid #f7f7a7;
@@ -40,8 +42,6 @@ h4 { margin: 6px;}
 pre { margin: 4px;}
 
 
-
-
 ul li {
 
       image-rendering: pixelated;
@@ -53,6 +53,7 @@ li.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/
 li.s {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
 
 li.c {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/star_2.png);}
+
 
 
 
