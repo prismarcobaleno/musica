@@ -10,19 +10,31 @@ html{
       }
    
 details {
-  padding: 1%; 
-  border: 1px solid #a7a7a7;
-  border-radius: 2px
+  padding: 2px; 
+  border: 1px solid #f7f7a7;
+  border-radius: 2px;
 }
 
 details[open] > summary {
   list-style-type: '📖 ';
 }
 
+.giallo {
+   display: inline;
+  padding: 2px;
+  border: 1px solid #f7f7a7;
+  border-radius: 2px;
+}
+
 summary {
+  padding: 2px;
+  border: 1px solid #f7f7a7;
+  border-radius: 2px;
+
   cursor: pointer;
   list-style-type: '📘 ';
 } 
+
 
 
 ul li {
