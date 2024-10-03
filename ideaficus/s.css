@@ -35,6 +35,11 @@ summary {
   list-style-type: '📘 ';
 } 
 
+h4 { margin: 6px;}
+	
+pre { margin: 4px;}
+
+
 
 
 ul li {
