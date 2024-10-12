@@ -2,51 +2,42 @@
 
 html{ 
       font-family: monospace;
-      font:  1.5em
-      line-height: 1.5;
-      margin: 0%;
-      letter-spacing: 0.04em;
-      word-spacing: 0.04em;
-      margin: 5%;
+      margin: 1%;
       }
    
 
 details {
   padding: 2px; 
-  border: 1px solid #f7f7a7;
-  border-radius: 2px;
+  display: inline;
+  min-width: 99%;
+    border-radius: 2px;
 }
 
 details[open] > summary {
   list-style-type: '📖 ';
 }
 
-.giallo {
-   display: inline;
-  padding: 2px;
-  border: 1px solid #f7f7a7;
-  border-radius: 2px;
-}
-
 summary {
   padding: 2px;
-  border: 1px solid #f7f7a7;
   border-radius: 2px;
 
   cursor: pointer;
   list-style-type: '📘 ';
 } 
 
-h4 { margin: 6px;}
+h4 { margin: 1%;}
+
+h3 { margin: 2%;}
+
+pre {margin: 0.5%;}
 	
-pre { margin: 4px;}
 
 
 ul li {
-
       image-rendering: pixelated;
       image-rendering: -moz-crisp-edges;
       image-rendering: crisp-edges;}
+      
 
 li.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
 
@@ -75,9 +66,18 @@ border-radius: 2px;
 .s {
 overflow: auto;
 padding: 1%;
-border: 3px solid orange;
+border: 2px solid orange;
 border-radius: 2px;
 }
+
+.gi {  
+  border: 1px solid orange;
+}
+
+.ve {
+ border: 1px solid darkgreen;
+}
+
 
 h1 {text-align:center;}
 
