@@ -56,19 +56,19 @@ overflow: auto;
 padding: 1%;
 border: 3px solid purple;
 border-radius: 2px;
-background: rgba(100, 0, 50, 0.05);
+background: rgba(200, 20, 70, 0.1);
 }
 
 .vi {
- border: 1px solid purple;
- background: rgba(100, 0, 50, 0.05);
+ border: 2px solid purple;
+ background: rgba(200, 20, 70, 0.1);
 }
 
 .g {
 overflow: auto;
 padding: 1%;
-border: 3px solid darkgreen;
-border-radius: 2px;
+border: 2px solid darkgreen;
+border-radius: 1px;
 background: rgba(0, 50, 0, 0.1);
 }
 
