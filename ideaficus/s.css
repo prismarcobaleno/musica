@@ -28,7 +28,7 @@ summary {
 
 h4 { margin: 1%;}
 
-h3 { margin: 2%;}
+.mar { margin: 2%;}
 
 
 
@@ -43,10 +43,17 @@ li {}
 
 li.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
 
-li.s {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
+li.w {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
 
-li.c {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/star_2.png);}
+li.c {list-style-type: '🌟 ';}
 
+li.cd {list-style-type: '💿 ';}
+
+li.dvd {list-style-type: '📀 ';}
+
+li.play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/doc_music.png)}
+
+li.cassetta { list-style-type: '📼 ';}
 
 
 
@@ -64,6 +71,7 @@ background: rgba(200, 20, 70, 0.1);
  background: rgba(200, 20, 70, 0.1);
 }
 
+
 .g {
 overflow: auto;
 padding: 1%;
@@ -71,6 +79,7 @@ border: 2px solid darkgreen;
 border-radius: 1px;
 background: rgba(0, 50, 0, 0.1);
 }
+
 
 
 
@@ -94,7 +103,19 @@ background: rgba(230, 200, 100, 0.2);
 }
 
 
+.z {
+padding: 1%;
+border-radius: 2px;
+border: 2px solid skyblue;
+background: rgba(100, 200, 230, 0.2);
+}
 
+.az {
+padding: 1%;
+border: 1px solid skyblue;
+background: rgba(100, 200, 230, 0.1);
+max-width:100%
+}
 
 
 h1 {text-align:center;}
