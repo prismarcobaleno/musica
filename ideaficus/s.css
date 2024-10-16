@@ -56,7 +56,19 @@ li.play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/i
 li.cassetta { list-style-type: '📼 ';}
 
 
+.az {
+padding: 1%;
+border: 1px solid skyblue;
+background: rgba(100, 200, 230, 0.1);
+max-width:100%
+}
 
+.z {
+padding: 1%;
+border-radius: 2px;
+border: 2px solid skyblue;
+background: rgba(100, 200, 230, 0.2);
+}
 
 .v {
 overflow: auto;
@@ -103,19 +115,8 @@ background: rgba(230, 200, 100, 0.2);
 }
 
 
-.z {
-padding: 1%;
-border-radius: 2px;
-border: 2px solid skyblue;
-background: rgba(100, 200, 230, 0.2);
-}
 
-.az {
-padding: 1%;
-border: 1px solid skyblue;
-background: rgba(100, 200, 230, 0.1);
-max-width:100%
-}
+
 
 
 h1 {text-align:center;}
