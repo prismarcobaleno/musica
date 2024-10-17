@@ -26,10 +26,20 @@ summary {
   list-style-type: '📘 ';
 } 
 
+summary:hover, summary:focus, summary:active, .cd:hover, .cd:focus, .cd:active {
+filter: saturate(450%) ;
+filter: contrast(210%);
+filter: drop-shadow(1px);
+border: 2px solid gray;
+}
+
+
 h4 { margin: 1%;}
 
 .mar { margin: 2%;}
 
+.mar-lati { margin-left: 2%;
+	margin-right: 2% }
 
 
 
@@ -41,20 +51,27 @@ ul li {
 li {}
       
 
-li.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
+.o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
 
-li.w {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
+.w {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
 
-li.c {list-style-type: '🌟 ';}
+.c {list-style-type: '🌟 ';}
 
-li.cd {list-style-type: '💿 ';}
+.cd {list-style-type: '💿 ';}
 
-li.dvd {list-style-type: '📀 ';}
+.dvd {list-style-type: '📀 ';}
 
-li.play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/doc_music.png)}
+.play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/doc_music.png)}
 
-li.cassetta { list-style-type: '📼 ';}
+.cassetta { list-style-type: '📼 ';}
 
+
+.z {
+padding: 1%;
+border-radius: 2px;
+border: 2px solid skyblue;
+background: rgba(100, 200, 230, 0.2);
+} 
 
 .az {
 padding: 1%;
@@ -63,25 +80,21 @@ background: rgba(100, 200, 230, 0.1);
 max-width:100%
 }
 
-.z {
-padding: 1%;
-border-radius: 2px;
-border: 2px solid skyblue;
-background: rgba(100, 200, 230, 0.2);
-}
+
 
 .v {
 overflow: auto;
 padding: 1%;
-border: 3px solid purple;
+border: 2px solid purple;
 border-radius: 2px;
 background: rgba(200, 20, 70, 0.1);
 }
 
 .vi {
- border: 2px solid purple;
+ border: 1px solid purple;
  background: rgba(200, 20, 70, 0.1);
 }
+
 
 
 .g {
@@ -92,29 +105,37 @@ border-radius: 1px;
 background: rgba(0, 50, 0, 0.1);
 }
 
-
-
-
 .ve {
  border: 1px solid darkgreen;
  background: rgba(0, 50, 0, 0.05);
 }
 
+.ve:hover, .ve:focus, .ve:active {
+  border: 2px solid green;
+  background: rgba(00, 250, 00, 0.1);
+}
 
 .s {
 overflow: auto;
 padding: 1%;
-border: 2px solid orange;
+border: 2px solid darkorange;
 border-radius: 2px;
-background: rgba(230, 200, 100, 0.2);
+background: rgba(200, 200, 100, 0.2);
 }
 
 .gi {  
-  border: 1px solid orange;
-  background: rgba(230, 200, 100, 0.1);
+  border: 1px solid darkorange;
+  background: rgba(200, 200, 100, 0.1);
 }
 
 
+
+
+
+.ro {
+ border: 1px solid red;
+ background: rgba(230, 0, 0, 0.1);
+}
 
 
 
