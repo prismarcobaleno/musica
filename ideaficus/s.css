@@ -30,7 +30,7 @@ summary:hover, summary:focus, summary:active, .cd:hover, .cd:focus, .cd:active {
 filter: saturate(450%) ;
 filter: contrast(210%);
 filter: drop-shadow(1px);
-border: 2px solid gray;
+border: 1px solid gray;
 }
 
 
@@ -96,6 +96,25 @@ background: rgba(200, 20, 70, 0.1);
 }
 
 
+.vi:hover, .vi:focus, .vi:active {
+  border: 1px solid violet;
+}
+
+.s {
+overflow: auto;
+padding: 1%;
+border: 2px solid darkorange;
+border-radius: 2px;
+background: rgba(200, 200, 100, 0.2);
+}
+
+
+
+.gi:hover, .gi:focus, .gi:active {
+  border: 1px solid goldenrod;
+  background: rgba(200, 200, 100, 0.2)
+}
+
 
 .g {
 overflow: auto;
@@ -111,26 +130,15 @@ background: rgba(0, 50, 0, 0.1);
 }
 
 .ve:hover, .ve:focus, .ve:active {
-  border: 2px solid green;
+  border: 1px solid lightgreen;
   background: rgba(00, 250, 00, 0.1);
 }
 
-.s {
-overflow: auto;
-padding: 1%;
-border: 2px solid darkorange;
-border-radius: 2px;
-background: rgba(200, 200, 100, 0.2);
-}
 
 .gi {  
-  border: 1px solid darkorange;
-  background: rgba(200, 200, 100, 0.1);
+  border: 1px solid goldenrod;
+  background: rgba(200, 200, 70, 0.1);
 }
-
-
-
-
 
 .ro {
  border: 1px solid red;
