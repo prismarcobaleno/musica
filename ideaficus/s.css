@@ -27,8 +27,8 @@ summary {
 } 
 
 summary:hover, summary:focus, summary:active, .cd:hover, .cd:focus, .cd:active {
-filter: saturate(450%) ;
-filter: contrast(210%);
+filter: saturate(250%) ;
+filter: contrast(170%);
 filter: drop-shadow(1px);
 border: 1px solid gray;
 }
@@ -166,7 +166,11 @@ font-family: "Roboto Mono",  "DejaVu Sans Mono", monospace;
 }
 	
 
-
-
+.rosa {
+filter: saturate(100%) ;
+filter: contrast(60%);
+filter: drop-shadow(0px);
+border-radius: 1em
+}
 
 
