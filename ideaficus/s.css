@@ -4,6 +4,22 @@ html{
       font-family: "Roboto Mono", "DejaVu Sans Mono", monospace;
       }
       
+/* a {
+  position: relative;
+}
+a[href*="://"]:after, a[href^="//"] {
+  content: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg);
+  width: 1ch;
+  height: 1ch;
+  display: inline-block;
+  position: absolute;
+  top: -0.5ch; 
+}
+
+
+<img lang=it src="https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg" alt="Link Esterno">
+*/
+
 
    
 
