@@ -41,7 +41,8 @@ h4 { margin: 1%;}
 .mar-lati { margin-left: 2%;
 	margin-right: 2% }
 
-
+.flesso{
+display: flex}
 
 ul li {
       image-rendering: pixelated;
@@ -171,7 +172,16 @@ font-family: "Roboto Mono",  "DejaVu Sans Mono", monospace;
 filter: saturate(100%) ;
 filter: contrast(60%);
 filter: drop-shadow(0px);
+border: 1px solid gray;
 border-radius: 1em
 }
+
+.rosa:hover, .rosa:focus, .rosa:active {
+filter: saturate(250%) ;
+filter: contrast(170%);
+filter: drop-shadow(1px);
+border: 1px solid white;
+}
+
 
 
