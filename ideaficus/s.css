@@ -54,6 +54,8 @@ h4 { margin: 1%;}
 
 .mar { margin: 2%;}
 
+.pad {padding:1%}
+
 .mar-lati { margin-left: 2%;
 	margin-right: 2% }
 
@@ -117,6 +119,23 @@ background: rgba(200, 20, 70, 0.1);
   border: 1px solid violet;
 }
 
+.gri {
+overflow: auto;
+padding: 1%;
+border: 2px solid darkgray;
+border-radius: 2px;
+background: rgba(20, 20, 20, 0.1);
+}
+
+.grigio {
+ border: 1px solid gray;
+ background: rgba(20, 20, 20, 0.1);
+}
+
+.grigio:hover, .grigio:focus, .grigio:active {
+border: 1px solid black;}
+
+
 .s {
 overflow: auto;
 padding: 1%;
@@ -128,7 +147,7 @@ background: rgba(200, 200, 100, 0.2);
 
 
 .gi:hover, .gi:focus, .gi:active {
-  border: 1px solid goldenrod;
+  border: 1px solid orange;
   background: rgba(200, 200, 100, 0.2)
 }
 
