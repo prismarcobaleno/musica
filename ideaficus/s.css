@@ -72,7 +72,9 @@ li {}
 
 .o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
 
-.w {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
+.asp {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/wait.png);}
+
+.w {list-style-type: '🎥 ' }
 
 .c {list-style-type: '🌟 ';}
 
