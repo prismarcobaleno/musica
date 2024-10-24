@@ -24,7 +24,7 @@ a[href*="://"]:after, a[href^="//"] {
    
 
 details {
-  padding: 2px; 
+  padding: 1px; 
   display: inline;
   min-width: 99%;
     border-radius: 2px;
@@ -35,7 +35,7 @@ details[open] > summary {
 }
 
 summary {
-  padding: 2px;
+  padding: 1px;
   border-radius: 2px;
 
   cursor: pointer;
@@ -88,14 +88,14 @@ li {}
 
 
 .z {
-padding: 1%;
+padding: 0.5%;
 border-radius: 2px;
 border: 2px solid skyblue;
 background: rgba(100, 200, 230, 0.2);
 } 
 
 .az {
-padding: 1%;
+padding: 0.5%;
 border: 1px solid skyblue;
 background: rgba(100, 200, 230, 0.1);
 max-width:100%
@@ -105,7 +105,7 @@ max-width:100%
 
 .v {
 overflow: auto;
-padding: 1%;
+padding: 0.5%;
 border: 2px solid purple;
 border-radius: 2px;
 background: rgba(200, 20, 70, 0.1);
@@ -123,7 +123,7 @@ background: rgba(200, 20, 70, 0.1);
 
 .gri {
 overflow: auto;
-padding: 1%;
+padding: 0.5%;
 border: 2px solid darkgray;
 border-radius: 2px;
 background: rgba(20, 20, 20, 0.1);
@@ -140,7 +140,7 @@ border: 1px solid black;}
 
 .s {
 overflow: auto;
-padding: 1%;
+padding: 0.5%;
 border: 2px solid darkorange;
 border-radius: 2px;
 background: rgba(200, 200, 100, 0.2);
@@ -149,14 +149,14 @@ background: rgba(200, 200, 100, 0.2);
 
 
 .gi:hover, .gi:focus, .gi:active {
-  border: 1px solid orange;
+  border: 1px solid yellow;
   background: rgba(200, 200, 100, 0.2)
 }
 
 
 .g {
 overflow: auto;
-padding: 1%;
+padding: 0.5%;
 border: 2px solid darkgreen;
 border-radius: 1px;
 background: rgba(0, 50, 0, 0.1);
@@ -197,7 +197,7 @@ hr {color: darkgreen}
 font-family: monospace;
 color: white;
 background: #222222 ;
-padding: 2%;
+padding: 1%;
 }
 
 pre {margin: 0.5%;
@@ -207,17 +207,17 @@ font-family: "Roboto Mono",  "DejaVu Sans Mono", monospace;
 
 .rosa {
 filter: saturate(100%) ;
-filter: contrast(60%);
+filter: contrast(90%);
 filter: drop-shadow(0px);
-border: 1px solid gray;
+
 border-radius: 1em
 }
 
 .rosa:hover, .rosa:focus, .rosa:active {
 filter: saturate(250%) ;
-filter: contrast(170%);
+filter: contrast(130%);
 filter: drop-shadow(1px);
-border: 1px solid white;
+
 }
 
 
