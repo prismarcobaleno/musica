@@ -30,17 +30,16 @@ details {
     border-radius: 2px;
 }
 
-details[open] > summary {
-  list-style-type: '📖 ';
-}
-
 summary {
   padding: 1px;
   border-radius: 2px;
-
   cursor: pointer;
-  list-style-type: '📘 ';
 } 
+
+.niente {list-style-type: ' ';}
+details[open] > .niente {
+  list-style-type: inherit;
+}
 
 summary:hover, summary:focus, summary:active, .cd:hover, .cd:focus, .cd:active {
 filter: saturate(250%) ;
@@ -80,11 +79,25 @@ li {}
 
 .cd {list-style-type: '💿 ';}
 
-.dvd {list-style-type: '📀 ';}
+.dvd {list-style-type: '💿 ';}
+details[open] > .dvd {list-style-type: '📀 ';}
+
+.menu {list-style-type: '📁 ';}
+details[open] > .menu {list-style-type: '📂 ';}
+
+
+.note {list-style-type: '🎶 ';}
+details[open] > .dvd {list-style-type: '🎵 ';}
 
 .play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/doc_music.png)}
 
 .cassetta { list-style-type: '📼 ';}
+
+.lib {list-style-type: '📘 ';}
+details[open] > .lib {list-style-type: '📖 ';}
+
+
+
 
 
 .z {
