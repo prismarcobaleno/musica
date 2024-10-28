@@ -49,7 +49,7 @@ border: 1px solid gray;
 }
 
 
-h4 { margin: 1%;}
+h4 { margin: 0.5%;}
 
 .mar { margin: 2%;}
 
@@ -81,6 +81,8 @@ li {}
 
 .dvd {list-style-type: '💿 ';}
 details[open] > .dvd {list-style-type: '📀 ';}
+.dvd:hover, .dvd:focus, .dvd:active {
+list-style-type: '📀 ';}
 
 .menu {list-style-type: '📁 ';}
 details[open] > .menu {list-style-type: '📂 ';}
@@ -88,6 +90,8 @@ details[open] > .menu {list-style-type: '📂 ';}
 
 .note {list-style-type: '🎶 ';}
 details[open] > .dvd {list-style-type: '🎵 ';}
+.note:hover, .note:focus, .note:active {
+list-style-type: '🎵 ';}
 
 .play {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/doc_music.png)}
 
@@ -98,7 +102,7 @@ details[open] > .lib {list-style-type: '📖 ';}
 
 
 
-
+ { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 .z {
 padding: 0.5%;
