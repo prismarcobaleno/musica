@@ -48,10 +48,19 @@ filter: drop-shadow(1px);
 border: 1px solid gray;
 }
 
+.mini {
+display: block;
+font-size: 1.17em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: 0;
+margin-right: 0;
+font-weight: normal;}
+
 
 h4 { margin: 0.5%;}
 
-.mar { margin: 2%;}
+.mar { margin: 1%;}
 
 .pad {padding:1%}
 
@@ -64,9 +73,14 @@ display: flex}
 ul li {
       image-rendering: pixelated;
       image-rendering: -moz-crisp-edges;
-      image-rendering: crisp-edges;}
-      
-li {}
+      image-rendering: crisp-edges;
+      margin-left: 0em;
+}
+
+
+li summary {  margin-left: -0.8em;}
+
+li summary .no {margin-left: 0.2em;}
       
 
 .o {list-style-image: url(https://www.splitbrain.org/_static/ico/ledicons/ico/page_white_world.png);}
@@ -79,7 +93,10 @@ li {}
 
 .cd {list-style-type: '💿 ';}
 
-.dvd {list-style-type: '💿 ';}
+.dvd {list-style-type: '💿 ';
+margin-left: -1em;
+margin-top: 0.5em}
+
 details[open] > .dvd {list-style-type: '📀 ';}
 .dvd:hover, .dvd:focus, .dvd:active {
 list-style-type: '📀 ';}
@@ -137,6 +154,23 @@ background: rgba(200, 20, 70, 0.1);
 .vi:hover, .vi:focus, .vi:active {
   border: 1px solid violet;
 }
+
+.rubino {
+overflow: auto;
+padding: 0.5%;
+ border: 2px solid darkred;
+ background: rgba(250, 70, 70, 0.1);
+}
+
+.rus {
+border: 1px solid darkred;
+border-radius: 2px;
+background: rgba(250, 70, 70, 0.1);
+}
+.rus:hover, .rus:focus, .rus:active {
+  border: 1px solid red;
+}
+
 
 .gri {
 overflow: auto;
