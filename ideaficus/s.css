@@ -89,13 +89,20 @@ li summary .no {margin-left: 0.2em;}
 
 .w {list-style-type: '🎥 ' }
 
-.c {list-style-type: '🌟 ';}
+.c {list-style-type: '🌟 ';
+
+}
+
+.spazio{
+margin-top: 0.5em;}
 
 .cd {list-style-type: '💿 ';}
 
 .dvd {list-style-type: '💿 ';
 margin-left: -1em;
 margin-top: 0.5em}
+
+
 
 details[open] > .dvd {list-style-type: '📀 ';}
 .dvd:hover, .dvd:focus, .dvd:active {
@@ -228,6 +235,8 @@ background: rgba(0, 50, 0, 0.1);
   border: 1px solid goldenrod;
   background: rgba(200, 200, 70, 0.1);
 }
+
+/* gi è parente di giallo, ma deve stare sotto ve per far funzionare il trucchetto di tmoi.html con quell'unica canzone dorata*/
 
 .ro {
  border: 1px solid red;
